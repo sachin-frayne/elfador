@@ -1,8 +1,7 @@
 # Elfador - ELasticsearch FAke Data generatOR
 
-from datetime import datetime
 from elasticsearch import Elasticsearch, helpers
-from random import random, getrandbits, randint
+from random import getrandbits, randint
 from ipaddress import IPv4Address
 from essential_generators import DocumentGenerator
 from faker import Faker
